@@ -11,7 +11,7 @@ class API {
 
   getProfileData(username: string): Promise<any> {
     return new Promise((resolve, reject) => {
-      const URL = `${this.protocol}://${this.baseURL}/${this.root}?username=${username}`;
+      const URL = `${this.protocol}://${this.baseURL}/${this.root}?username=${riya-agrawal-50374628b}`;
       request.get(
         URL,
         {
